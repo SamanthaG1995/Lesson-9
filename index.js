@@ -8,9 +8,10 @@ let length = players.length
 //having two empty teams waiting to have players to be added
 let team1 = [];
 let team2 = [];
+//round starting at 1
 let round = 1;
-//pick a random member from 'players' list
 do {
+//pick a random member from 'players' list
 let player1 = Math.floor(Math.random() * length + 0);epi
 // console.log(player1);
 let player1Name = players[player1];
